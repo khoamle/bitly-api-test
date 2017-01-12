@@ -1,6 +1,6 @@
-## Bitly API happy and negative paths
+# Bitly API happy and negative paths
 
-# RSpec tests for Bitly URL shortener feature
+## RSpec tests for Bitly URL shortener feature
 
 * Test when URL link is long url
 * Test when shorten URL is expanded to full url
