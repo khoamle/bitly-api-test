@@ -1,24 +1,26 @@
-# README
+## Bitly API happy and negative paths
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# RSpec tests for Bitly URL shortener feature
 
-Things you may want to cover:
+* Test when URL link is long url
+* Test when shorten URL is expanded to full url
+* Test when URL returns page title
+* Test when URL is already Bitly URL
+* Test when URL is an invalid URL
 
-* Ruby version
+## Gems Used
 
-* System dependencies
+```ruby
+gem 'capybara'
+gem 'site_prism'
+gem 'selenium-webdriver'
+gem 'chromedriver-helper'
+gem 'faker'
+gem 'bitly'
+```
 
-* Configuration
+To run all Rspec tests:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rspec spec
+```
